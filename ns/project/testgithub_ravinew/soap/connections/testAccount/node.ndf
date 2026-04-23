@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">soap</value>
+  <value name="node_nsName">project.testgithub_ravinew.soap.connections:testAccount</value>
+  <value name="node_pkg">TestGitHub_RaviNewProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">TestGitHub_RaviNewProject.project.testgithub_ravinew.soap.connections:testAccount</value>
+  <value name="connectionName">testAccount</value>
+  <value name="description"></value>
+  <value name="connectorNSName">project.testgithub_ravinew.soap.connectors:soapTest</value>
+  <value name="port">complexSoapAPI_Port</value>
+  <value name="url">https://awsusdadarnd.int-aws-us.webmethods.io/integration/ws/v2/fla83b78f5a9c79e7b259715/complexSoapAPI/complexSoapAPI_Port</value>
+  <value name="timeout"></value>
+  <value name="transportType">Basic</value>
+  <value name="transportUser">vijeta.dixit@ibm.com</value>
+  <value name="transportPass">project.testgithub_ravinew.soap.connections.testAccount.transportPass</value>
+  <value name="transportServerCertsKeystoreAlias"></value>
+  <value name="transportServerCertsKeyAlias"></value>
+  <value name="messageUser"></value>
+  <value name="messagePass"></value>
+  <value name="messageServerCertsKeystoreAlias"></value>
+  <value name="messageServerCertsKeyAlias"></value>
+</Values>
