@@ -7,6 +7,47 @@ packages:
   gitUrl: https://github.com/RaviSK0509
   gitUsername: RaviSK0509
   gitBranch: main
+services:
+- serviceName: project.testgithub_ravinew.soap.connections:testAccount
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.connectors:complexSoapAPI_PortType_bulkDataLoader
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.832
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.connectors:complexSoapAPI_PortType_dynamicConnectionFS
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.connectors:complexSoapAPI_PortType_recivedInvoice
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.connectors:complexSoapAPI_PortType_transFormPipelineComplex
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.responseServices:complexSoapAPI_PortType_dynamicConnectionFS_Response
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.responseServices:complexSoapAPI_PortType_recivedInvoice_Response
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.responseServices:complexSoapAPI_PortType_transFormPipelineComplex_Response
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
+- serviceName: project.testgithub_ravinew.soap.connectors.soapTest_.responseServices:genericFault_Response
+  packages:
+  - name: TestGitHub_RaviNewProject
+    version: "1.0"
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
