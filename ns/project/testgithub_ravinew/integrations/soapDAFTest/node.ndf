@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Ravi.Shankar.Kumar1@ibm.com</value>
-    <value name="createdDate">1776950861652</value>
-    <value name="lastModifiedDate">1776950861652</value>
+    <value name="lastModifiedBy">Ravi.Shankar.Kumar1@ibm.com</value>
+    <value name="lastModifiedDate">1776950875368</value>
     <value name="displayName">soapDAFTest</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -77,6 +76,13 @@
         <value name="allowCustomOperations">false</value>
         <value name="appType">soap</value>
         <Boolean name="hasAccount">true</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">testAccount</value>
+          <value name="connectionType">soap</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.testgithub_ravinew.soap.connections:testAccount</value>
+        <value name="connectionType">soap</value>
         <value name="type">soap</value>
         <value name="version">V_12_1</value>
         <null name="packageName"/>
@@ -105,6 +111,7 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <Boolean name="accountReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
