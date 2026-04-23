@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestGitHub_RaviNewProject
+  gitServerName: RaviSK0509
+  gitUrl: https://github.com/RaviSK0509
+  gitUsername: RaviSK0509
+  gitBranch: main
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
